@@ -25,7 +25,7 @@ let budgetPerPerson = 5;
 
 if (budgetPerPerson * people >= 50) {
   console.log("Pizza Cuadrado");
-} else if (budgetPerPerson * people < 50 && (budgetPerPerson * people > 30)) {
+} else if (budgetPerPerson * people < 50 && budgetPerPerson * people > 30) {
   console.log("McDonals");
 } else if (budgetPerPerson * people >= 20) {
   console.log("Arturo's");
@@ -49,50 +49,60 @@ if (budgetPerPerson * people >= 50) {
 //   "Doce esqueletos descansan por la noche y se duermen" if the hour is 12
 //   "Trece esqueletos duermen" if the hour is 13 and 23
 
-let hour = 1
+let hour = 2;
 
 if (hour === 1) {
-  console.log("Cuando el reloj marca la una, un esqueleto sale de su tumba")
+  console.log("Cuando el reloj marca la una, un esqueleto sale de su tumba");
 } else if (hour === 2) {
-  console.log("Cuando el reloj marca la dos, Dos esqueletos comen arroz")
+  console.log("Cuando el reloj marca la dos, Dos esqueletos comen arroz");
 } else if (hour === 3) {
-  console.log("Tres esqueletos se vuelven al revés")
+  console.log("Tres esqueletos se vuelven al revés");
 } else if (hour === 4) {
-  console.log("Cuatro esqueletos van al teatro")
+  console.log("Cuatro esqueletos van al teatro");
 } else if (hour === 5) {
-  console.log("Cinco esqueletos pegan un brinco")
+  console.log("Cinco esqueletos pegan un brinco");
 } else if (hour === 6) {
-  console.log("Seis esqueletos se ponen el jersey")
+  console.log("Seis esqueletos se ponen el jersey");
 } else if (hour === 7) {
-  console.log("Siete esqueletos van en patinete")
+  console.log("Siete esqueletos van en patinete");
 } else if (hour === 8) {
-  console.log("Ocho esqueletos comen bizcocho")
+  console.log("Ocho esqueletos comen bizcocho");
 } else if (hour === 9) {
-  console.log("Nueve esqueletos cantan y beben agua")
+  console.log("Nueve esqueletos cantan y beben agua");
 } else if (hour === 10) {
-  console.log("Diez esqueletos bailan a la vez")
+  console.log("Diez esqueletos bailan a la vez");
 } else if (hour === 11) {
-  console.log("Once esqueletos corren veloces")
+  console.log("Once esqueletos corren veloces");
 } else if (hour === 12) {
-  console.log("Doce esqueletos descansan por la noche y se duermen")
+  console.log("Doce esqueletos descansan por la noche y se duermen");
 } else if (hour === 13 || hour === 23) {
-  console.log("Trece esqueletos duermen")
+  console.log("Trece esqueletos duermen");
 }
 
 // otra forma de hacerlo
 
-let hours = 5
+let hours = 5;
 
 if (hours >= 1 && hours <= 5) {
-  console.log("Cuando el reloj marca l hasta la 5, los esqueletos salen de su tumba")
+  console.log(
+    "Cuando el reloj marca l hasta la 5, los esqueletos salen de su tumba"
+  );
 } else if (hours >= 6 && hours <= 8) {
-  console.log("Cuando el reloj marca las 6 hasta las 8, los esqueletos hacen cositas")
+  console.log(
+    "Cuando el reloj marca las 6 hasta las 8, los esqueletos hacen cositas"
+  );
 } else if (hours >= 9 && hours <= 11) {
-  console.log("cuando el reloj marca las 9 hasta las 11, los esqueletos ya casi se les acaban sus actividades")
+  console.log(
+    "cuando el reloj marca las 9 hasta las 11, los esqueletos ya casi se les acaban sus actividades"
+  );
 } else if (hours >= 12 && hours <= 14) {
-  console.log("cuando el reloj marca las 12 hasta las 13, los esqueletos se ponen a dormir")
+  console.log(
+    "cuando el reloj marca las 12 hasta las 13, los esqueletos se ponen a dormir"
+  );
 } else {
-  console.log("cuando el reloj marca las 14 hasta las 23, los esqueletos se duermen")
+  console.log(
+    "cuando el reloj marca las 14 hasta las 23, los esqueletos se duermen"
+  );
 }
 
 // siguiente ejercicio
@@ -104,18 +114,18 @@ if (hours >= 1 && hours <= 5) {
 //   " 'B' pasas la materia con notas aceptables" si la calificación es de 16 a 18
 //   " 'A' pasas la materia con notas Excelente" si la calificación es de 19 a 20
 
-let note = 15 
+let note = 15;
 
 if (note >= 19) {
-  console.log("A Notas Excelente")
+  console.log("A Notas Excelente");
 } else if (note >= 16 && note <= 18) {
-  console.log("B Notas Aceptables")
+  console.log("B Notas Aceptables");
 } else if (note >= 13 && note <= 15) {
-  console.log("C Notas Relativamente Bajas")
+  console.log("C Notas Relativamente Bajas");
 } else if (note >= 10 && note <= 12) {
-  console.log("D Baja Nota")
+  console.log("D Baja Nota");
 } else {
-  console.log("F No Aprobado")
+  console.log("F No Aprobado");
 }
 
 // siguiente ejercicio
@@ -129,22 +139,22 @@ if (note >= 19) {
 // 6 = sabado
 // 7 = domingo
 
-let dayOfWeek = 3
+let dayOfWeek = 3;
 
 if (dayOfWeek === 1) {
-  console.log("Lunes")
+  console.log("Lunes");
 } else if (dayOfWeek === 2) {
-  console.log("Martes")
+  console.log("Martes");
 } else if (dayOfWeek === 3) {
-  console.log("Miercoles")
+  console.log("Miercoles");
 } else if (dayOfWeek === 4) {
-  console.log("Jueves")
+  console.log("Jueves");
 } else if (dayOfWeek === 5) {
-  console.log("Viernes")
+  console.log("Viernes");
 } else if (dayOfWeek === 6) {
-  console.log("Sabado")
+  console.log("Sabado");
 } else {
-  console.log("Domingo")
+  console.log("Domingo");
 }
 
 //siguiente ejercicio
@@ -162,31 +172,105 @@ if (dayOfWeek === 1) {
 //Acuario: del 20 de enero al 18 de febrero
 //Piscis: del 19 de febrero al 20 de marzo
 
-let day = 20
-let month = 3
+let day = 8;
+let month = 4;
 
-if (month === 3 && day >= 21 && month <= 4 && day <= 19) {
-  console.log("Pertences a la casa de Aries y tu cabello del zodiaco es Mu de Aries")
-} else if (month === 4 && day >= 20 && month <= 5 && day <= 20) {
-  console.log("Perteneces a la casa de Tauro y tu caballero del zodiaco es Aldebarán de Tauro")
-} else if (month === 5 && day >= 21 && month <= 6 && day <= 20) {
-  console.log("Perteneces a la casa de Géminis y tu caballero del zodiaco es Saga de Géminis")
-} else if (month === 6 && day >= 21 && month <= 7 && day <= 22) {
-  console.log("Perteneces a la casa de Cáncer y tu caballero del zodiaco es Mascara de muerte (Deathmask) de Cáncer")
-} else if (month === 7 && day >= 23 && month <= 8 && day <= 22) {
-  console.log("Perteneces a la casa de Leo y tu caballero del zodiaco es Aiolia de Leo")
-} else if (month === 8 && day >= 23 && month <= 9 && day <= 22) {
-  console.log("Perteneces a la casa de Virgo y tu caballero del zodiaco es Shaka de Virgo")
-} else if (month === 9 && day >= 23 && month <= 10 && day <= 22) {
-  console.log("Perteneces a la casa de Libra y tu caballero del zodiaco es Dohko de Libra")
-} else if (month === 10 && day >= 23 && month <= 11 && day <= 21) {
-  console.log("Perteneces a la casa de Escorpio y tu caballero del zodiaco es Milo de Escorpio")
-} else if (month === 11 && day >= 22 && month <= 12 && day <= 21) {
-  console.log("Perteneces a la casa de Sagitario y tu caballero del zodiaco es Aiolos de Sagitario")
-} else if (month === 12 && day >= 22 && month <= 1 && day <= 19) {
-  console.log("Perteneces a la casa de Capricornio y tu caballero del zodiaco es Shura de Capricornio")
-} else if (month === 1 && day >= 20 && month <= 2 && day <= 18) {
-  console.log(" Perteneces a la casa de Acuario y tu caballero del zodiaco es Camus de Acuario")
-} else if (month === 2 && day >= 19 && month <= 3 && day <= 20) {
-  console.log("Perteneces a la casa de Piscis y tu caballero del zodiaco es Aphrodite de Piscis")
+if (month = 3 && day >= 21) {
+  console.log(
+    "Pertences a la casa de Aries y tu cabello del zodiaco es Mu de Aries"
+  );
+} else if (month = 4 && day <= 19) {
+  console.log(
+    "Pertences a la casa de Aries y tu cabello del zodiaco es Mu de Aries"
+  );
+} else if (month = 4 && day >= 20) {
+  console.log(
+    "Pertences a la casa de Tauro y tu cabello del zodiaco es Aldebarán de Tauro"
+  );
+} else if (month = 5 && day <= 20) {
+  console.log(
+    "Pertences a la casa de Tauro y tu cabello del zodiaco es Aldebarán de Tauro"
+  );
+} else if (month = 5 && day >= 21) {
+  console.log(
+    "Pertences a la casa de Geminis y tu cabello del zodiaco es Saga de Geminis"
+  );
+} else if (month = 6 && day <= 20) {
+  console.log(
+    "Pertences a la casa de Geminis y tu cabello del zodiaco es Saga de Geminis"
+  );
+} else if (month = 6 && day >= 21) {
+  console.log(
+    "Pertences a la casa de Cancer y tu cabello del zodiaco es Mascara de muerte de Cancer"
+  );
+} else if (month = 7 && day <= 22) {
+  console.log(
+    "Pertences a la casa de Cancer y tu cabello del zodiaco es Mascara de muerte de Cancer"
+  );
+} else if (month = 7 && day >= 23) {
+  console.log(
+    "Pertences a la casa de Leo y tu cabello del zodiaco es Aioria de Leo"
+  );
+} else if (month = 8 && day <= 22) {
+  console.log(
+    "Pertences a la casa de Leo y tu cabello del zodiaco es Aioria de Leo"
+  );
+} else if (month = 8 && day >= 23) {
+  console.log(
+    "Pertences a la casa de Virgo y tu cabello del zodiaco es Shaka de Virgo"
+  );
+} else if (month = 9 && day <= 22) {
+  console.log(
+    "Pertences a la casa de Virgo y tu cabello del zodiaco es Shaka de Virgo"
+  );
+} else if (month = 9 && day >= 23) {
+  console.log(
+    "Pertences a la casa de Libra y tu cabello del zodiaco es Dohko de Libra"
+  );
+} else if (month = 10 && day <= 22) {
+  console.log(
+    "Pertences a la casa de Libra y tu cabello del zodiaco es Dohko de Libra"
+  );
+} else if (month = 10 && day >= 23) {
+  console.log(
+    "Pertences a la casa de Escorpio y tu cabello del zodiaco es Milo de Escorpio"
+  );
+} else if (month = 11 && day <= 21) {
+  console.log(
+    "Pertences a la casa de Escorpio y tu cabello del zodiaco es Milo de Escorpio"
+  );
+} else if (month = 11 && day >= 22) {
+  console.log(
+    "Pertences a la casa de Sagitario y tu cabello del zodiaco es Aioros de Sagitario"
+  );
+} else if (month = 12 && day <= 21) {
+  console.log(
+    "Pertences a la casa de Sagitario y tu cabello del zodiaco es Aioros de Sagitario"
+  );
+} else if (month = 12 && day >= 22) {
+  console.log(
+    "Pertences a la casa de Capricornio y tu cabello del zodiaco es Sura de Capricornio"
+  );
+} else if (month = 1 && day <= 19) {
+  console.log(
+    "Pertences a la casa de Capricornio y tu cabello del zodiaco es Sura de Capricornio"
+  );
+} else if (month = 1 && day >= 20) {
+  console.log(
+    "Pertences a la casa de Acuario y tu cabello del zodiaco es Camus de Acuario"
+  );
+} else if (month = 2 && day <= 18) {
+  console.log(
+    "Pertences a la casa de Acuario y tu cabello del zodiaco es Camus de Acuario"
+  );
+} else if (month = 2 && day >= 19) {
+  console.log(
+    "Pertences a la casa de Piscis y tu cabello del zodiaco es Aphrodita de Piscis"
+  );
+} else if (month = 3 && day <= 20) {
+  console.log(
+    "Pertences a la casa de Piscis y tu cabello del zodiaco es Aphrodita de Piscis"
+  );
+} else {
+  console.log("aun no has nacido, No pertences a ningun zodiaco");
 }
