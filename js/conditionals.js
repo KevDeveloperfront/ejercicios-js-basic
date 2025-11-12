@@ -172,102 +172,102 @@ if (dayOfWeek === 1) {
 //Acuario: del 20 de enero al 18 de febrero
 //Piscis: del 19 de febrero al 20 de marzo
 
-let day = 8;
 let month = 4;
+let day = 8;
 
-if (month = 3 && day >= 21) {
+if (month == 3 && day >= 21) {
   console.log(
     "Pertences a la casa de Aries y tu cabello del zodiaco es Mu de Aries"
   );
-} else if (month = 4 && day <= 19) {
+} else if (month == 4 && day <= 19) {
   console.log(
     "Pertences a la casa de Aries y tu cabello del zodiaco es Mu de Aries"
   );
-} else if (month = 4 && day >= 20) {
+} else if (month == 4 && day >= 20) {
   console.log(
     "Pertences a la casa de Tauro y tu cabello del zodiaco es Aldebarán de Tauro"
   );
-} else if (month = 5 && day <= 20) {
+} else if (month == 5 && day <= 20) {
   console.log(
     "Pertences a la casa de Tauro y tu cabello del zodiaco es Aldebarán de Tauro"
   );
-} else if (month = 5 && day >= 21) {
+} else if (month == 5 && day >= 21) {
   console.log(
     "Pertences a la casa de Geminis y tu cabello del zodiaco es Saga de Geminis"
   );
-} else if (month = 6 && day <= 20) {
+} else if (month == 6 && day <= 20) {
   console.log(
     "Pertences a la casa de Geminis y tu cabello del zodiaco es Saga de Geminis"
   );
-} else if (month = 6 && day >= 21) {
+} else if (month == 6 && day >= 21) {
   console.log(
     "Pertences a la casa de Cancer y tu cabello del zodiaco es Mascara de muerte de Cancer"
   );
-} else if (month = 7 && day <= 22) {
+} else if (month == 7 && day <= 22) {
   console.log(
     "Pertences a la casa de Cancer y tu cabello del zodiaco es Mascara de muerte de Cancer"
   );
-} else if (month = 7 && day >= 23) {
+} else if (month == 7 && day >= 23) {
   console.log(
     "Pertences a la casa de Leo y tu cabello del zodiaco es Aioria de Leo"
   );
-} else if (month = 8 && day <= 22) {
+} else if (month == 8 && day <= 22) {
   console.log(
     "Pertences a la casa de Leo y tu cabello del zodiaco es Aioria de Leo"
   );
-} else if (month = 8 && day >= 23) {
+} else if (month == 8 && day >= 23) {
   console.log(
     "Pertences a la casa de Virgo y tu cabello del zodiaco es Shaka de Virgo"
   );
-} else if (month = 9 && day <= 22) {
+} else if (month == 9 && day <= 22) {
   console.log(
     "Pertences a la casa de Virgo y tu cabello del zodiaco es Shaka de Virgo"
   );
-} else if (month = 9 && day >= 23) {
+} else if (month == 9 && day >= 23) {
   console.log(
     "Pertences a la casa de Libra y tu cabello del zodiaco es Dohko de Libra"
   );
-} else if (month = 10 && day <= 22) {
+} else if (month == 10 && day <= 22) {
   console.log(
     "Pertences a la casa de Libra y tu cabello del zodiaco es Dohko de Libra"
   );
-} else if (month = 10 && day >= 23) {
+} else if (month == 10 && day >= 23) {
   console.log(
     "Pertences a la casa de Escorpio y tu cabello del zodiaco es Milo de Escorpio"
   );
-} else if (month = 11 && day <= 21) {
+} else if (month == 11 && day <= 21) {
   console.log(
     "Pertences a la casa de Escorpio y tu cabello del zodiaco es Milo de Escorpio"
   );
-} else if (month = 11 && day >= 22) {
+} else if (month == 11 && day >= 22) {
   console.log(
     "Pertences a la casa de Sagitario y tu cabello del zodiaco es Aioros de Sagitario"
   );
-} else if (month = 12 && day <= 21) {
+} else if (month == 12 && day <= 21) {
   console.log(
     "Pertences a la casa de Sagitario y tu cabello del zodiaco es Aioros de Sagitario"
   );
-} else if (month = 12 && day >= 22) {
+} else if (month == 12 && day >= 22) {
   console.log(
     "Pertences a la casa de Capricornio y tu cabello del zodiaco es Sura de Capricornio"
   );
-} else if (month = 1 && day <= 19) {
+} else if (month == 1 && day <= 19) {
   console.log(
     "Pertences a la casa de Capricornio y tu cabello del zodiaco es Sura de Capricornio"
   );
-} else if (month = 1 && day >= 20) {
+} else if (month == 1 && day >= 20) {
   console.log(
     "Pertences a la casa de Acuario y tu cabello del zodiaco es Camus de Acuario"
   );
-} else if (month = 2 && day <= 18) {
+} else if (month == 2 && day <= 18) {
   console.log(
     "Pertences a la casa de Acuario y tu cabello del zodiaco es Camus de Acuario"
   );
-} else if (month = 2 && day >= 19) {
+} else if (month == 2 && day >= 19) {
   console.log(
     "Pertences a la casa de Piscis y tu cabello del zodiaco es Aphrodita de Piscis"
   );
-} else if (month = 3 && day <= 20) {
+} else if (month == 3 && day <= 20) {
   console.log(
     "Pertences a la casa de Piscis y tu cabello del zodiaco es Aphrodita de Piscis"
   );
