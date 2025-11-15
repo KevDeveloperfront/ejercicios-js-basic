@@ -28,13 +28,13 @@ if (user !== "admin" || pass !== "1234") {
 } else {
   let option;
   do {
-    option = prompt("Bienvenido al cajero automático. ¿Qué deseas hacer?\ 1. Depositar\ 2. Retirar\ 3. Mostrar balance\ 4. Cerrar sesión");
+    option = prompt("Bienvenido al cajero automático. ¿Qué deseas hacer?\n1. Depositar\n2. Retirar\n3. Mostrar balance\n4. Cerrar sesión");
     option = parseInt(option);
 
     // Validación de opción inválida
     while (option < 1 || option > 4) {
       alert("Opción inválida. Intente nuevamente.");
-      option = prompt("Bienvenido al cajero automático. ¿Qué deseas hacer?\ 1. Depositar\ 2. Retirar\ 3. Mostrar balance\ 4. Cerrar sesión");
+      option = prompt("Bienvenido al cajero automático. ¿Qué deseas hacer?\n1. Depositar\n2. Retirar\n3. Mostrar balance\n4. Cerrar sesión");
       option = parseInt(option);
     }
     //pasamos a las operaciones con switch
