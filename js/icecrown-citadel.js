@@ -3,11 +3,12 @@
 //iniciemos con la creacion de las clase characters para heros y bosses
 
 class character {
-  constructor(name, hp, atk, spd, maxMana, abilities){
+  constructor(name, hp, atk, spd, def, maxMana, abilities){
     this.name = name;
     this.hp = hp;
     this.atk = atk;
     this.spd = spd;
+    this.def = def;
     this.maxMana = maxMana;
     this.abilities = abilities;
     this.currentMana = maxMana;
